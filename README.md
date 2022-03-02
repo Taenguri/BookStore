@@ -198,7 +198,7 @@ Null 값이 안들어가도록 구현했습니다.<hr>
 책 상세정보 페이지로 돌아옵니다.<hr>
 
 
-![image](https://user-images.githubusercontent.com/100080583/156286034-928738a4-1442-4999-825f-471f8b048d2d.png)<hr>
+![image](https://user-images.githubusercontent.com/100080583/156286034-928738a4-1442-4999-825f-471f8b048d2d.png)<br>
 작성자 본인만 삭제 할 수 있습니다.<hr>
 
 
