@@ -62,5 +62,36 @@
         1. 댓글 작성시 공백
         2. 작성자 본인만 수정가능
         3. 댓글 작성 및 수정시 공백이 있으면 안됨
-        4. 작성자 본인만 삭제가능
+        4. 작성자 본인만 삭제가능<hr>
+
+### DB설계
+
+![image](https://user-images.githubusercontent.com/100080583/156285164-ba0479f7-2e7b-4004-afcd-a35510bf56d7.png)<hr>
+
+### 기술상세
+
+### 알라딘 OPEN API 이용
+![image](https://user-images.githubusercontent.com/100080583/156285230-30e6c050-d8e7-4a95-83d8-35c93769515f.png)<br>
+알라딘 카테고리 엑셀파일에서 필요한 카테고리번호를 조사합니다.<hr>
+
+### 알라딘 OPEN API 이용
+![image](https://user-images.githubusercontent.com/100080583/156285288-d6af8a63-0d90-49d0-950e-11dafebe4b1b.png)<br>
+알라딘 Open API를 사용하기 위해 TTB Key 를 발급받은후
+Json 으로 이루어진 책 관련 정보를 가져온뒤, DB에 데이터 삽입을 했습니다.<hr>
+
+### 카테고리별 책분류
+![image](https://user-images.githubusercontent.com/100080583/156285323-6308beea-a9c4-43eb-8f52-b06749db6a94.png)<br>
+Tier 1 = 1차분류
+Tier 2 = 2차분류
+Tier 3 = 3차분류<br>
+
+![image](https://user-images.githubusercontent.com/100080583/156285343-56a67d9b-8bee-4bc6-9c87-e7ddde969756.png)<br>
+외래키를 통한 카테고리 번호 참조<hr>
+
+
+
+
+
+
+
 
