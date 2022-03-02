@@ -74,7 +74,6 @@
 ![image](https://user-images.githubusercontent.com/100080583/156285230-30e6c050-d8e7-4a95-83d8-35c93769515f.png)<br>
 알라딘 카테고리 엑셀파일에서 필요한 카테고리번호를 조사합니다.<hr>
 
-### 알라딘 OPEN API 이용
 ![image](https://user-images.githubusercontent.com/100080583/156285288-d6af8a63-0d90-49d0-950e-11dafebe4b1b.png)<br>
 알라딘 Open API를 사용하기 위해 TTB Key 를 발급받은후
 Json 으로 이루어진 책 관련 정보를 가져온뒤, DB에 데이터 삽입을 했습니다.<hr>
@@ -87,6 +86,46 @@ Tier 3 = 3차분류<br>
 
 ![image](https://user-images.githubusercontent.com/100080583/156285343-56a67d9b-8bee-4bc6-9c87-e7ddde969756.png)<br>
 외래키를 통한 카테고리 번호 참조<hr>
+
+
+![image](https://user-images.githubusercontent.com/100080583/156285410-4fff6521-e072-4620-aebd-c4dbc41d3963.png)<br>
+카테고리를 누르면 (ex : 국내도서,경영일반, ....)
+파라미터로 Tier ( t ) 와 카테고리번호 ( c ) 를 읽어옵니다.<hr>
+   
+![image](https://user-images.githubusercontent.com/100080583/156285452-d49ca40e-9a83-47fd-a747-50f4d68e0a67.png)<br>
+BookService에서
+읽어온 카테고리 번호를 토대로
+책 분류를 합니다.<hr>
+
+![image](https://user-images.githubusercontent.com/100080583/156285474-cbb0ade2-96f5-4aac-9af2-3b727d9c0d79.png)<br>
+listMapper 에서
+카테고리번호에 따라서
+분류한뒤, DB에 전송합니다.<hr>
+
+### 국내도서
+
+![image](https://user-images.githubusercontent.com/100080583/156285504-0f849904-7d20-4729-91f3-dca826d64f53.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156285513-69d4de63-9ae0-4cdc-af2c-d5efc971cf5c.png)<br>
+카테고리번호가
+10000 이상 20000 이하는 국내도서로 분류합니다<hr>
+
+### 외국도서
+
+![image](https://user-images.githubusercontent.com/100080583/156285529-7e6bf218-6ed9-4dff-9b57-373716ac8e4e.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156285537-e328357a-be79-4bb2-9e84-2c50df16dc07.png)<br>
+카테고리번호가
+20000 이상 30000 이하면 외국도서로 분류합니다.<hr>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
