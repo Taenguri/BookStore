@@ -68,10 +68,48 @@
   
   
  <hr>
+### UI설계
+![image](https://user-images.githubusercontent.com/100080583/156969202-2e854da6-18c8-4193-be0d-76dde33078ff.png)<hr>
 
 ### DB설계
 
 ![image](https://user-images.githubusercontent.com/100080583/156285164-ba0479f7-2e7b-4004-afcd-a35510bf56d7.png)<hr>
+
+### Book 테이블 (책)
+![image](https://user-images.githubusercontent.com/100080583/156969237-94dc33bd-2e8e-40ef-86ce-116a391a5505.png)<hr>
+
+### Book_Purchase 테이블(구매내역)
+![image](https://user-images.githubusercontent.com/100080583/156969247-9612a025-807f-448e-916f-d7e1a6e96a6a.png)<hr>
+
+### Book_USER 테이블(사용자)
+![image](https://user-images.githubusercontent.com/100080583/156969259-d9dfab02-cb21-4c12-a757-c73fdc20e92b.png)<hr>
+
+### Category 테이블(카테고리)
+![image](https://user-images.githubusercontent.com/100080583/156969274-cba68b37-25cc-47d3-bafa-0924b6ddcc6e.png)<hr>
+
+### Delivery 테이블(배송)
+![image](https://user-images.githubusercontent.com/100080583/156969287-336afcda-b078-4428-923d-b4f498d408e1.png)<hr>
+
+### JungoBook 테이블(중고책)
+![image](https://user-images.githubusercontent.com/100080583/156969311-9cf110c6-a8f8-4d30-aedc-4d5c7be30829.png)<hr>
+
+### JungoReply 테이블(중고책 댓글)
+![image](https://user-images.githubusercontent.com/100080583/156969329-365203ac-217b-4da7-baf1-64f246b0ba82.png)<hr>
+
+### Review 테이블(책 리뷰)
+![image](https://user-images.githubusercontent.com/100080583/156969343-288e62ac-1658-4b7a-a981-1e19c9c8ca15.png)<hr>
+
+### Shopping_Cart 테이블(장바구니)
+![image](https://user-images.githubusercontent.com/100080583/156969353-76ab0171-9040-45a0-b05e-3af6b72d1303.png)<hr>
+
+
+
+
+
+
+
+
+
 
 ### 기술상세
 
