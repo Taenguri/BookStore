@@ -13,7 +13,7 @@
 
 개발 환경  :  Spring framework, Java,Javascript, HTML5,CSS3, Jquery, oracle, bootstrap<br>
 <br>
-간단 소개  :  포트폴리오에는 제가 <span style="color:red">직접 구현</span>한 부분을 기재하였습니다.<br>
+간단 소개  :  포트폴리오에는 제가 ***직접 구현***한 부분을 기재하였습니다.<br>
 	제가 직접 구현한 부분 입니다.<br>
 	              - 메인페이지 디자인<br>
   - 카테고리별 책분류<br>
