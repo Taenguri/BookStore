@@ -144,7 +144,7 @@ BookService에서
 읽어온 카테고리 번호를 토대로
 책 분류를 합니다.<hr>
 
-![image](https://user-images.githubusercontent.com/100080583/156285474-cbb0ade2-96f5-4aac-9af2-3b727d9c0d79.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156970956-d25268fa-0afb-403c-bec3-45306758c07d.png)<br>
 listMapper 에서
 카테고리번호에 따라서
 분류한뒤, DB에 전송합니다.<hr>
@@ -152,14 +152,14 @@ listMapper 에서
 ### 국내도서
 
 ![image](https://user-images.githubusercontent.com/100080583/156285504-0f849904-7d20-4729-91f3-dca826d64f53.png)<br>
-![image](https://user-images.githubusercontent.com/100080583/156285513-69d4de63-9ae0-4cdc-af2c-d5efc971cf5c.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156971022-58d6b4b9-4ce7-4e5d-9bec-dfeacc3ce918.png)<br>
 카테고리번호가
 10000 이상 20000 이하는 국내도서로 분류합니다<hr>
 
 ### 외국도서
 
 ![image](https://user-images.githubusercontent.com/100080583/156285529-7e6bf218-6ed9-4dff-9b57-373716ac8e4e.png)<br>
-![image](https://user-images.githubusercontent.com/100080583/156285537-e328357a-be79-4bb2-9e84-2c50df16dc07.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156971111-e56f3266-6316-48d4-81aa-808cf356511a.png)<br>
 카테고리번호가
 20000 이상 30000 이하면 외국도서로 분류합니다.<hr>
 
@@ -177,7 +177,7 @@ NewMark 라는 뱃지를 부여하는 형식으로 구현했습니다.<hr>
 ### 베스트셀러
 
 ![image](https://user-images.githubusercontent.com/100080583/156285707-7e68a4a0-3f40-45b2-bb6b-85ec2ffa7ba1.png)<br>
-![image](https://user-images.githubusercontent.com/100080583/156285716-74274ac4-7967-4c81-b48f-a358457a5be1.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156971225-49ad9823-53ac-4564-83b7-d8ab7b612703.png)<br>
 베스트셀러는 가장 많이 팔린 책들을
 의미하므로, 임의로 bestCk 라는 컬럼을 만들어 관리자가 가장 잘 팔린 책들을 선별해서 bestCk = 1 로 체크해주는 방식으로 구현했습니다.
 기본값 : bestCk = 0;<hr>
@@ -260,7 +260,7 @@ Ajax 를 이용해서 댓글 작성을 구현했습니다.<hr>
 세션을 이용하여
 작성자인지 확인합니다.<hr>
 
-![image](https://user-images.githubusercontent.com/100080583/156286146-41848c51-ba7a-44c9-bc1e-93800ff62c99.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156971335-50128363-c8ea-43c6-b1bf-1171a7c4c460.png)<br>
 작성자 본인만 수정 할 수 있습니다.<hr>
 
 
@@ -270,7 +270,7 @@ Ajax 를 이용해서 댓글 작성을 구현했습니다.<hr>
 세션을 이용하여
 작성자인지 확인합니다.<hr>
 
-![image](https://user-images.githubusercontent.com/100080583/156286181-52d914af-8d75-4d7c-8454-5cf1199b6ff1.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156971383-dd0da349-98d6-4527-8733-e853171ced0e.png)<br>
 작성자 본인만 삭제 할 수 있습니다.<hr>
 
 
@@ -292,6 +292,30 @@ PageVO 와 PageCreaterVO를 만든후 페이징 알고리즘을 적용시켰습�
 
 
 
+
+### 느낀점
+
+
+사설학원에서 자바로 시작해서 프로젝트를 마무리하기까지<br>
+너무나 배운 게 많았던 시간이었고<br>
+3주가 조금 넘는 시간 동안 같이 프로젝트를 진행해준 조원들에게 매우 고마웠습니다.<br>
+쇼핑몰이란 방대한 범위의 프로젝트를 진행하려면 엄청나게 많은 부분을 구현해야 하지만<br>
+팀 프로젝트를 함으로써 전체 할당량을 여러 분야로 나누어서 계획을 세우고 각자의 목표량을 <br>
+세워서 작업을 하다 보니 아무래도 부담이 덜 되고 마음의 여유가 생겼던 것 같습니다.<br>
+또한 제가 완성을 못 하면 조원들에게 민폐를 끼치는 것이니깐 책임감을 가지고 열심히<br>
+일에 집중할 수 있었습니다.<br>
+프로젝트를 진행하면서 재밌었던 부분은 학원에서 알려주진 않았지만, 조원들의 의견으로<br>
+알라딘 API를 이용하는 부분이었는데,<br>
+많이 어려웠지만 결국 해결함으로써 실력이 조금 는 것 같아 재밌었던 것 같습니다. <br>
+아쉬운 점은 저희가 git 사용에 익숙하지 않은 조원들이 있어서<br>
+git을 통해 형상관리와 버전 관리를 못 한점이었습니다.<br>
+장바구니 파트를 맡은 조원분이 오류를 찾지 못해서<br>
+프로젝트 마지막 주까지 힘들어했는데 조원들이 다 같이 도와줌으로써 해결은 했지만<br>
+이 일을 토대로 다른 사람의 코드를 보면서 이해하는 것이 어렵단 걸 느꼈고,<br>
+다른 사람의 코드를 보고 배우면서 흥미를 느끼는 제 모습을 보며 한층 더 개발자의 길로<br>
+다가선 것 같습니다.<br>
+
+ 
 
 
 
