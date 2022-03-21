@@ -126,7 +126,7 @@
 
 
 ### 기술상세
-
+<hr>
 ### 알라딘 OPEN API 이용
 ![image](https://user-images.githubusercontent.com/100080583/156285230-30e6c050-d8e7-4a95-83d8-35c93769515f.png)<br>
 알라딘 카테고리 엑셀파일에서 필요한 카테고리번호를 조사합니다.<hr>
