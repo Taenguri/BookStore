@@ -21,7 +21,7 @@
   -  중고장터<br>
 
 
-개발 환경  :  Spring Legacy, Java 1.8, HTML5,CSS3, Jquery, oracle, Maven, bootstrap, Jsp, Mybatis<br>
+개발 환경  :  Spring Legacy, Java 1.8, HTML5,CSS3, Jquery, oracle, Maven, bootstrap, Jsp, Mybatis, eclipse<br>
 <br>
 간단 소개  :  포트폴리오에는 제가 ***직접 구현***한 부분을 기재하였습니다.<br>
 	제가 직접 구현한 부분 입니다.<br>
